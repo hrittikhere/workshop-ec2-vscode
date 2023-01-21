@@ -11,7 +11,7 @@ An active AWS account is necessary for this workshop as we will be provisioning 
 
 ### [Visual Studio Code](https://code.visualstudio.com/download) 
 
-Visual Studio Code is a popular code editor developed by Microsoft. It supports multiple programming languages and has a wide range of extensions to enhance its functionality. To download Visual Studio Code, visit the [official website]((https://code.visualstudio.com/download) and follow the instructions to install it on your machine.
+Visual Studio Code is a popular code editor developed by Microsoft. It supports multiple programming languages and has a wide range of extensions to enhance its functionality. To download Visual Studio Code, visit the [official website](https://code.visualstudio.com/download) and follow the instructions to install it on your machine.
 
 
 ### [Remote - SSH Extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh)
@@ -28,7 +28,7 @@ Remote - SSH: Editing Configuration files is an additional extension which allow
 
 ![Remote - SSH: Editing Configuration Files](static/editing-configuration-files-extension.png)
 
-## Hardware requirements for Extnesion
+## Hardware requirements for Extension
 
 You can connect to a running SSH server on the following platforms with the extension so make sure you're on supported operating systems: 
 
