@@ -6,7 +6,6 @@ By the end, you would be able to run your workloads directly on EC2 via VSCode a
 
 ### 📖 About This Workshop
 
-
 This is L100-200 workshop and specifically structured for developers from any levels. Knowledge on what SSH, Docker is should be helpful!
 
 ### 💡 Context 
@@ -19,13 +18,24 @@ Additionally, the cloud-based VM allowed me to access my development environment
 
 Currently, there are more container-based solutions available in the market that can perform better in certain scenarios. However, virtual machines (VMs) continue to be a useful option for some because of their ability to run applications which require virtualization like VirtualBox like MiniKube and also satisfy memory and CPU, GPU requirements which containers fail to address. 
 
-### 🤚 Key Takeways
-
-
 
 ### ☁️ Prerequisites 
 
 This workshop requires following applications and tools properly configured. Please follow the instruction provided on the links for each applications/tools.
+
+
+### 🤚 Key Takeways
+
+By the end of this workshop: 
+
+1. Understand the different components of Elastic Compute Cloud (EC2): networking, storage, compute, Amazon Machine Images (AMI), and encryption keys.
+1. Experience creating a EC2 instance on Amazon Web Services (AWS).
+1. Learn how to connect it with VS Code for Secured Shell (SSH).
+1. Access your development environment from anywhere, which will provide greater flexibility and convenience via VS Code.
+1. Run your workloads directly on EC2 via VS Code, which will improve performance and provide faster internet speeds than your local machine.
+
+> **Note**
+> EC2 (Elastic Compute Cloud) is a service provided by AWS that allows users to launch and manage virtual machines (VMs) in the cloud.
 
 ### 🧑‍💻 Remote Coding with Visual Studio Code
 
@@ -35,4 +45,6 @@ This workshop requires following applications and tools properly configured. Ple
 
 
 ### ⚠️ Cleaning Up
-This workshop uses AWS services that are mostly covered by the Free Tier allowance - ONLY if your account is less than 12 months old. For accounts passed the free tier eligibility, it may incur some costs. To minimize the cost, **make sure you delete resources used in this workshop when you are finished.**
+
+> **Warning**
+> This workshop uses AWS services that are mostly covered by the Free Tier allowance - ONLY if your account is less than 12 months old. For accounts passed the free tier eligibility, it may incur some costs. To minimize the cost, **make sure you delete resources used in this workshop when you are finished.**
