@@ -1,0 +1,6 @@
+.gitignore
+README.md
+LICENSE
+env/
+manifest.yaml
+__pycache__
