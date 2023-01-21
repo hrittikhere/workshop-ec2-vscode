@@ -6,11 +6,11 @@ By the end, you would be able to run your workloads directly on EC2 via VSCode a
 
 ### 💡 Context 
 
-### Remote Coding with Visual Studio Code
+### 🧑‍💻 Remote Coding with Visual Studio Code
 
-### File System Access
+### 📂 File System Access
 
-### Port Forwarding
+### ⏩ Port Forwarding
 
 
 ### ⚠️ Cleaning Up
