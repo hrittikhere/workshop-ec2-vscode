@@ -12,9 +12,9 @@ This is L100-200 workshop and specifically structured for developers from any le
 
 Two years ago, I began my journey in the technology industry by learning development and DevOps. However, I encountered a problem during this process. The internet bandwidth in India was not sufficient, which resulted in extremely slow download speeds for Docker images. This made it take a very long time for the images to be pulled and made it difficult for me to efficiently learn and work with the technology.
 
-One of the easiest solutions I found to overcome the issue of slow internet speeds was to utilize a cloud virtual machine (VM) through student programs. By doing so, I was able to use the VM as my personal computer. This approach had several benefits, such as improved performance and faster internet speeds. By running a VM in the cloud, I was able to access the resources of a powerful computer and avoid the limitations of my local machine. 
+One of the easiest solutions I found to overcome the issue of slow internet speeds was to utilize a cloud virtual machine (VM) through student programs. By doing so, I was able to use the VM as my personal computer. This approach had several benefits, such as improved performance and faster internet speeds.
 
-Additionally, the cloud-based VM allowed me to access my development environment from anywhere, which provided greater flexibility and convenience. 
+By running a VM in the cloud, I was able to access the resources of a powerful computer and avoid the limitations of my local machine. Additionally, the cloud-based VM allowed me to access my development environment from anywhere, which provided greater flexibility and convenience. 
 
 Currently, there are more container-based solutions available in the market that can perform better in certain scenarios. However, virtual machines (VMs) continue to be a useful option for some because of their ability to run applications which require virtualization like VirtualBox like MiniKube and also satisfy memory and CPU, GPU requirements which containers fail to address. 
 
@@ -36,6 +36,31 @@ By the end of this workshop:
 
 > **Note**
 > EC2 (Elastic Compute Cloud) is a service provided by AWS that allows users to launch and manage virtual machines (VMs) in the cloud.
+
+### ⌚ Agenda 
+
+Agenda for the workshop: 
+
+```mermaid
+---
+title: Workshop Agenda 
+---
+flowchart TD 
+  A[Understanding Virtual Machines] --> B[Evaluating System Prerequisites]
+  B --> C[Creating an EC2 Instance]
+  C --> D[Downloading and Securing Private Keys]
+  D --> E[Installing the Remote - SSH Extension]
+  E --> F[Configuring the access file for Remote Connection]
+  F --> G[Connecting to the Remote Instance via VSCode]
+  G --> H[Updating the Base System]
+  H --> I[Installing Additional Utilities]
+  I --> J[Accessing the File System]
+  J --> K[Building and Running Docker Images]
+  K --> L[Port Forwarding]
+  L --> N{{Cleaning Up the Environment}}
+
+```    
+
 
 ### 🧑‍💻 Remote Coding with Visual Studio Code
 
