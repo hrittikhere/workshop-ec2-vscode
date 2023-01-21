@@ -19,11 +19,6 @@ By running a VM in the cloud, I was able to access the resources of a powerful c
 Currently, there are more container-based solutions available in the market that can perform better in certain scenarios. However, virtual machines (VMs) continue to be a useful option for some because of their ability to run applications which require virtualization like VirtualBox like MiniKube and also satisfy memory and CPU, GPU requirements which containers fail to address. 
 
 
-### ☁️ Prerequisites 
-
-This workshop requires following applications and tools properly configured. Please follow the instruction provided on the links for each applications/tools.
-
-
 ### 🤚 Key Takeways
 
 By the end of this workshop: 
@@ -59,15 +54,7 @@ flowchart TD
   K --> L[Port Forwarding]
   L --> N{{Cleaning Up the Environment}}
 
-```    
-
-
-### 🧑‍💻 Remote Coding with Visual Studio Code
-
-### 📂 File System Access
-
-### ⏩ Port Forwarding
-
+```
 
 ### ⚠️ Cleaning Up
 
