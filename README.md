@@ -4,6 +4,8 @@ In this workshop you would experience creating a virtual machine from scratch. N
 
 By the end, you would be able to run your workloads directly on EC2 via VSCode and use it for development purposes
 
+### ☁️ Prerequisites 
+
 ### 💡 Context 
 
 ### 🧑‍💻 Remote Coding with Visual Studio Code
