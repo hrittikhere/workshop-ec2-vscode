@@ -4,9 +4,14 @@ In this workshop you would experience creating a virtual machine from scratch. N
 
 By the end, you would be able to run your workloads directly on EC2 via VSCode and use it for development purposes
 
+### 💡 Context 
 
+### Remote Coding with Visual Studio Code
 
+### File System Access
+
+### Port Forwarding
 
 
 ### ⚠️ Cleaning Up
-This workshop uses AWS services that are mostly covered by the Free Tier allowance - ONLY if your account is less than 12 months old. For accounts passed the free tier eligibility, it may incur some costs. To minimize the cost, make sure you delete resources used in this workshop when you are finished.
+This workshop uses AWS services that are mostly covered by the Free Tier allowance - ONLY if your account is less than 12 months old. For accounts passed the free tier eligibility, it may incur some costs. To minimize the cost, **make sure you delete resources used in this workshop when you are finished.**
