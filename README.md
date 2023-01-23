@@ -34,7 +34,7 @@ By the end of this workshop:
 
 ### 📂 Overview 
 
-Navigate your workshop with the following tree:
+Navigate your workshop with the following file structure:
 
 ```bash
 .

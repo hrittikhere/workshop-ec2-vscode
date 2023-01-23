@@ -17,6 +17,8 @@ The AWS UG will present you credits for the workshop. You can add a promotional 
 1. For Security code, enter the code shown in the CAPTCHA.
 1. Choose Redeem credit.
 
+![Reededm Credits](static/reedem-credits.png)
+
 > **Note**
 > If the promotional code was entered correctly, is valid, hasn't expired, and hasn't been previously redeemed, it is added automatically to your AWS account.
 
