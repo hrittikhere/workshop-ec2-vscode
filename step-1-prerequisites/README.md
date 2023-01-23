@@ -3,7 +3,6 @@
 
 This workshop requires following applications and tools properly configured. Please follow the instruction provided on the links for each applications/tools.
 
-
 ### [Active AWS account]( https://aws.amazon.com/account/sign-up)
 
 An active AWS account is necessary for this workshop as we will be provisioning EC2 instances. To obtain an account, you can visit the AWS website and [sign up](https://aws.amazon.com/account/sign-up) for a free account or login to [an existing AWS account.](https://console.aws.amazon.com/console/home)

@@ -32,6 +32,14 @@ By the end of this workshop:
 > **Note**
 > EC2 (Elastic Compute Cloud) is a service provided by AWS that allows users to launch and manage virtual machines (VMs) in the cloud.
 
+### 📂 Overview 
+
+Navigate your workshop with the following tree:
+
+
+```bash
+```
+
 ### ⌚ Agenda 
 
 Agenda for the workshop: 
