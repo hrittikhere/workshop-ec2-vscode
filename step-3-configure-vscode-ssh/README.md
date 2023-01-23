@@ -32,9 +32,10 @@ Host ec2-workshop
 
 * Move forward by clicking on Connect and choosing the system as Linux!
 
-* Once connected, you will be able to open and edit files on the remote host, and run commands on the remote host using the integrated terminal.
+![](https://code.visualstudio.com/assets/docs/remote/ssh/ssh-select-platform.png)
 
-Terminal can be accesed from the options to manipulate the file system and carry out operations!
+* Wait for the process to complete and once connected, you will be able to open and edit files on the remote host, and run commands on the remote host using the integrated terminal.
 
+Once connected, any terminal window you open in VS Code (Terminal > New Terminal) will automatically run on the remote host rather than locally.
 
 Now you're ready to go to [Step 4!](/step-4-vscode-extras/) 🚀
