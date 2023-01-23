@@ -16,39 +16,39 @@ The Advantages of the service can be broken into 5 specific categories:
 
 ## Create an EC2 Stack
 
-Open your AWS Managament Console.
+* Open your AWS Managament Console.
 
-Select Singapore Region for your resources
+* Select Singapore Region for your resources
 
-Open the CloudFormation console in the AWS Management Console.
+* Open the CloudFormation console in the AWS Management Console.
 
 ![CloudFormation Console](static/coudformation.png)
 
-Click on the "Create Stack" button.
+* Click on the "Create Stack" button.
 
 ![Upload Stack](static/coudformation-upload-template.png)
 
-In step 1, Select "Upload a template file" as the template source!
+* In step 1, Select "Upload a template file" as the template source!
 
-Click on the "Choose File" button and select the following template file [CloudFormation file](cloudformation-ec2-template) as a payload.
+* Click on the "Choose File" button and select the following template file [CloudFormation file](cloudformation-ec2-template) as a payload.
 
 ![Upload File](static/coudformation-upload-template.png)
 
-Click on the "Next" button.
+* Click on the "Next" button.
 
 ![](static/coudformation-create-stack-name.png)
 
-Enter a stack name and any Public Key parameter values from the key you have generated in [Step 1](/step-1-prerequisites/).
+* Enter a stack name and any Public Key parameter values from the key you have generated in [Step 1](/step-1-prerequisites/).
 
 ![](static/coudformation-apply-public-key-material.png)
 
-Click on the "Next" button.
+* Click on the "Next" button.
 
-Configure any advanced options, such as tags or IAM roles. We will skip this as this is out of scope for this workshop so Skip to next section from Configure stack options using "Next"
+* Configure any advanced options, such as tags or IAM roles. We will skip this as this is out of scope for this workshop so Skip to next section from Configure stack options using "Next"
 
 ![](static/coudformation-review-steps.png)
 
-Click on the "Create Stack" button after reviewing your steps. The start should look similar: 
+* Click on the "Create Stack" button after reviewing your steps. The start should look similar: 
 
 ![](static/coudformation-stack-creation-initaiton.png)
 
