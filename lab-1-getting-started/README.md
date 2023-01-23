@@ -8,6 +8,19 @@ This workshop requires following applications and tools properly configured. Ple
 
 An active AWS account is necessary for this workshop as we will be provisioning EC2 instances. To obtain an account, you can visit the AWS website and [sign up](https://aws.amazon.com/account/sign-up) for a free account or login to [an existing AWS account.](https://console.aws.amazon.com/console/home)
 
+### Apply AWS Credits
+
+The AWS UG will present you credits for the workshop. You can add a promotional code to your AWS account by doing the following:
+
+1. Open the Credits page of the Billing and Cost Management console.
+1. Choose Redeem credit.
+1. For Promotion code, enter the promotion code as it appears.
+1. For Security code, enter the code shown in the CAPTCHA.
+1. Choose Redeem credit.
+
+> **Note**
+> If the promotional code was entered correctly, is valid, hasn't expired, and hasn't been previously redeemed, it is added automatically to your AWS account.
+
 
 ### [Visual Studio Code](https://code.visualstudio.com/download) 
 
