@@ -1,13 +1,13 @@
 
-## ☁️ Prerequisites 
+# ☁️ Prerequisites 
 
 This workshop requires following applications and tools properly configured. Please follow the instruction provided on the links for each applications/tools.
 
-### [Active AWS account]( https://aws.amazon.com/account/sign-up)
+## [Active AWS account]( https://aws.amazon.com/account/sign-up)
 
 An active AWS account is necessary for this workshop as we will be provisioning EC2 instances. To obtain an account, you can visit the AWS website and [sign up](https://aws.amazon.com/account/sign-up) for a free account or login to [an existing AWS account.](https://console.aws.amazon.com/console/home)
 
-### Apply AWS Promotional Credits
+## Apply AWS Promotional Credits
 
 The AWS UG will present you credits for the workshop. You can add a promotional code to your AWS account by doing the following:
 
@@ -23,12 +23,12 @@ The AWS UG will present you credits for the workshop. You can add a promotional 
 > If the promotional code was entered correctly, is valid, hasn't expired, and hasn't been previously redeemed, it is added automatically to your AWS account.
 
 
-### [Visual Studio Code](https://code.visualstudio.com/download) 
+## [Visual Studio Code](https://code.visualstudio.com/download) 
 
 Visual Studio Code is a popular code editor developed by Microsoft. It supports multiple programming languages and has a wide range of extensions to enhance its functionality. To download Visual Studio Code, visit the [official website](https://code.visualstudio.com/download) and follow the instructions to install it on your machine.
 
 
-### [Remote - SSH Extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh)
+## [Remote - SSH Extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh)
 
 ![Remote - SSH Extension](static/ssh-extension.png)
 
@@ -36,13 +36,13 @@ The Remote - SSH Extension is a Visual Studio Code extension that allows you to 
 
 Direct link for [Remote - SSH Extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh)
 
-### [Remote - SSH Extension: Editing Configuration Files](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh-edit)
+## [Remote - SSH Extension: Editing Configuration Files](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh-edit)
 
 Remote - SSH: Editing Configuration files is an additional extension which allows you to edit the ssh configuration files directly from visual studio code. Download it using the following link [Remote - SSH: Editing Configuration Files](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh-edit)
 
 ![Remote - SSH: Editing Configuration Files](static/editing-configuration-files-extension.png)
 
-## Hardware requirements for Extension
+### Hardware requirements for Extension
 
 You can connect to a running SSH server on the following platforms with the extension so make sure you're on supported operating systems: 
 
