@@ -38,6 +38,9 @@ Navigate your workshop with the following tree:
 
 ```bash
 .
+├── CODE_OF_CONDUCT.md
+├── LICENSE
+├── README.md
 ├── step-1-prerequisites  # Helps you get ready for the workshop
 ├── step-2-create-ec2     # Helps you create your EC2 instance using CloudFormation
 ├── step-3-configure-vscode-ssh # Helps you configure you VSCode with Extension for SSH
