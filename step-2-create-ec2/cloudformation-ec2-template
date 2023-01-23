@@ -1,0 +1,34 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Parameters:
+  PublicKeyMaterial:
+    Type: String
+    Description: Enter the public key material
+
+Resources:
+  MyEC2Instance:
+    Type: 'AWS::EC2::Instance'
+    Properties:
+      InstanceType: t2.micro
+      ImageId: ami-0b7e55206a0a22afc
+      KeyName: !Ref MyKeyPair
+      SecurityGroups:
+      - !Ref MySecurityGroup
+  MySecurityGroup:
+    Type: 'AWS::EC2::SecurityGroup'
+    Properties:
+      GroupDescription: Allow incoming traffic on port 22
+      SecurityGroupIngress:
+      - IpProtocol: tcp
+        FromPort: 22
+        ToPort: 22
+        CidrIp: 0.0.0.0/0
+  MyKeyPair:
+    Type: AWS::EC2::KeyPair
+    Properties: 
+      KeyName: community-day-sg-2023
+      PublicKeyMaterial: !Ref PublicKeyMaterial
+
+Outputs:
+  Ec2PublicDnsName:
+    Description: Public DNS name for the ec2 instance
+    Value: !GetAtt MyEC2Instance.PublicDnsName
