@@ -59,3 +59,18 @@ While ARMv7l (AArch32) and ARMv8l (AArch64) support is available, some extension
 
 > **Note**
 > While 1 GB RAM is required (similar to the hardware requirements for VS Code), at least 2 GB RAM and a 2-core CPU is recommended.
+
+## Generate Public/Private Keys for CloudFormation 
+
+To generate public and private keys for use with AWS CloudFormation, you can use the AWS Key Management Service (KMS) or a third-party tool such as OpenSSL or `ssh-keygen`. Here we will be using ssh-keygen and you can do it using the following command on your local machine:
+
+```bash
+ssh-keygen -t rsa -b 4096 -C "your_email@example.com" -f aws_key_pair
+```
+
+This command will generate a new RSA key pair with a length of 4096 bits, a comment containing your email address, and save the private key in a file named aws_key_pair and the public key in a file named aws_key_pair.pub in the current directory. You will be using the public key for CloudFormation!
+
+The private key should be kept secret and should not be included in your CloudFormation template. You can use the private key to connect to the instances, but you should make sure to keep it safe and secure.
+
+
+Now you're ready to go to [Step 2!](/step-2-create-ec2/) 🚀
