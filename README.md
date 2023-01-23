@@ -36,8 +36,15 @@ By the end of this workshop:
 
 Navigate your workshop with the following tree:
 
-
 ```bash
+.
+├── step-1-prerequisites  # Helps you get ready for the workshop
+├── step-2-create-ec2     # Helps you create your EC2 instance using CloudFormation
+├── step-3-configure-vscode-ssh # Helps you configure you VSCode with Extension for SSH
+├── step-4-vscode-extras # Learn more with a simple app, docker image about port forwarding and more
+│   └── app ## Application to build Docker Image
+└── step-5-clean-up # Clean up your enviroment after workshop
+
 ```
 
 ### ⌚ Agenda 
@@ -68,3 +75,5 @@ flowchart TD
 
 > **Warning**
 > This workshop uses AWS services that are mostly covered by the Free Tier allowance - ONLY if your account is less than 12 months old. For accounts passed the free tier eligibility, it may incur some costs. To minimize the cost, **make sure you delete resources used in this workshop when you are finished.**
+
+Refer to [Step 5](/step-5-clean-up/) for detailed instructions!
