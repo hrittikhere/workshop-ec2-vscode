@@ -10,9 +10,10 @@ An active AWS account is necessary for this workshop as we will be provisioning 
 ## Apply AWS Promotional Credits
 
 The AWS UG will present you credits for the workshop. You can add a promotional code to your AWS account by doing the following:
-
-1. Open the Credits page of the Billing and Cost Management console.
+![Billing Dashboard](https://i.imgur.com/57pXO7N.png)
+1. Open the Credits page of the Billing and Cost Management console via Billing Dashboard.
 1. Choose Redeem credit.
+![Reedem Credits](https://i.imgur.com/DFJBhIh.png)
 1. For Promotion code, enter the promotion code as it appears.
 1. For Security code, enter the code shown in the CAPTCHA.
 1. Choose Redeem credit.
