@@ -17,4 +17,4 @@ Click on "Delete Stack" and then confirm!
 
 ![Delete Confirmation](static/delete-cloudformation-stack.png)
 
-Your stack with all it's resources should be deleted now!
+Your stack with all it's resources should be deleted now!🥳
