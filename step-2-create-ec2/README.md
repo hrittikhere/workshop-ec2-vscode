@@ -63,3 +63,6 @@ As the stack is created, you can view the outputs by going to the "Outputs" tab 
 ![](static/coudformation-stack-creation-output.png)
 
 Copy the Ec2PublicDnsName value which here is `ec2-18-142-185-102.ap-southeast-1.compute.amazonaws.com` for [Step 3](/step-3-configure-vscode-ssh/)
+
+
+Now you're ready to go to [Step 3!](/step-3-configure-vscode-ssh) 🚀
