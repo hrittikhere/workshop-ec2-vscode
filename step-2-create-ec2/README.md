@@ -22,23 +22,44 @@ Select Singapore Region for your resources
 
 Open the CloudFormation console in the AWS Management Console.
 
+![CloudFormation Console](static/coudformation.png)
+
 Click on the "Create Stack" button.
 
-Select "Upload a template file" as the template source.
+![Upload Stack](static/coudformation-upload-template.png)
 
-Click on the "Choose File" button and select the template file you want to use.
+In step 1, Select "Upload a template file" as the template source!
+
+Click on the "Choose File" button and select the following template file [CloudFormation file](cloudformation-ec2-template) as a payload.
+
+![Upload File](static/coudformation-upload-template.png)
 
 Click on the "Next" button.
 
-Enter a stack name and any necessary parameter values.
+![](static/coudformation-create-stack-name.png)
+
+Enter a stack name and any Public Key parameter values from the key you have generated in [Step 1](/step-1-prerequisites/).
+
+![](static/coudformation-apply-public-key-material.png)
 
 Click on the "Next" button.
 
 Configure any advanced options, such as tags or IAM roles. We will skip this as this is out of scope for this workshop so Skip to next section from Configure stack options using "Next"
 
+![](static/coudformation-review-steps.png)
 
-Click on the "Create Stack" button after reviewing your steps.
+Click on the "Create Stack" button after reviewing your steps. The start should look similar: 
 
-Once the stack is created, you can view the outputs by going to the "Outputs" tab on the stack details page. The outputs are defined in the Outputs section of the template and can be used to reference resources created by the stack.
+![](static/coudformation-stack-creation-initaiton.png)
+
+Wait a bit....
+
+![](static/coudformation-stack-creation-completed.png)
+
+
+As the stack is created, you can view the outputs by going to the "Outputs" tab on the stack details page. The outputs are defined in the Outputs section of the template and can be used to reference resources created by the stack.
+
+
+![](static/coudformation-stack-creation-output.png)
 
 Copy the Ec2PublicDnsName value which here is `ec2-18-142-185-102.ap-southeast-1.compute.amazonaws.com` for [Step 3](/step-3-configure-vscode-ssh/)
