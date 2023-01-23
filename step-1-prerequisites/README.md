@@ -7,7 +7,7 @@ This workshop requires following applications and tools properly configured. Ple
 
 An active AWS account is necessary for this workshop as we will be provisioning EC2 instances. To obtain an account, you can visit the AWS website and [sign up](https://aws.amazon.com/account/sign-up) for a free account or login to [an existing AWS account.](https://console.aws.amazon.com/console/home)
 
-### Apply AWS Credits
+### Apply AWS Promotional Credits
 
 The AWS UG will present you credits for the workshop. You can add a promotional code to your AWS account by doing the following:
 
@@ -36,7 +36,7 @@ The Remote - SSH Extension is a Visual Studio Code extension that allows you to 
 
 Direct link for [Remote - SSH Extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh)
 
-### [Remote - SSH: Editing Configuration Files](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh-edit)
+### [Remote - SSH Extension: Editing Configuration Files](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh-edit)
 
 Remote - SSH: Editing Configuration files is an additional extension which allows you to edit the ssh configuration files directly from visual studio code. Download it using the following link [Remote - SSH: Editing Configuration Files](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh-edit)
 
