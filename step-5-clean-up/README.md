@@ -9,7 +9,7 @@ By using CloudFormation to manage your resources, you can be sure that all of th
 
 ## Steps to clean 
 
-The Step is simple as navigate to your stack page as below and click on Delete on top corner!
+The Step is simple as navigate to your CloudFromation Page and select the stack that you have created earlier. Click "Delete" on top right corner!
 
 ![Stack Page](/step-2-create-ec2/static/coudformation-stack-creation-output.png)
 
