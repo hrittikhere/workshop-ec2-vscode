@@ -5,12 +5,14 @@ Visual Studio Code is a popular code editor that allows developers to work on th
 This step will teach you how to configure the extension!
 
 * Make sure the extensions "Remote - SSH" and "Remote - SSH: Editing Configuration Files" is installed in Visual Studio Code.
+* 
+![image](https://user-images.githubusercontent.com/67012359/214217331-bde418a1-a5fd-4dff-80e1-6230703413dc.png)
 
 * Open the Command Palette (Ctrl + Shift + P) and type "Remote-SSH: Open SSH Configuration File" to open the ssh config file.
 
 * Add a new entry for the remote host you want to connect to, using the format "Host [hostname]".
 
-* Under the host entry, add the "User" and "HostName" options, specifying the username and IP or hostname of the remote host.
+* Under the host entry, add the "User" and "HostName" options, specifying the username and DNS Name of EC2 Instance from [Step 2](/step-2-create-ec2).
 
 * Add "IdentityFile" option, specifying the path to your private ssh key that you have genereated in [Step 1: Prerequisites](/step-1-prerequisites/).
 
