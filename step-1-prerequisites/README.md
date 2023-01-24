@@ -63,7 +63,7 @@ While ARMv7l (AArch32) and ARMv8l (AArch64) support is available, some extension
 
 ## Generate Public/Private Keys for CloudFormation 
 
-To generate public and private keys for use with AWS CloudFormation, you can use the AWS Key Management Service (KMS) or a third-party tool such as OpenSSL or `ssh-keygen`. Here we will be using ssh-keygen and you can do it using the following command on your local machine:
+To generate public and private keys for use with AWS CloudFormation, you can use `ssh-keygen` on your PowerShell terminal if it is in windows or default terminal in MacOs and Linux systems:
 
 ```bash
 ssh-keygen -t rsa -b 4096 -C "your_email@example.com" -f aws_key_pair
