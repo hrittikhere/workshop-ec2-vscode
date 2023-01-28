@@ -60,8 +60,7 @@ title: Workshop Agenda
 ---
 flowchart TD 
   A[Understanding Virtual Machines] --> B[Evaluating System Prerequisites]
-  B --> C[Creating an EC2 Instance]
-  C --> D[Downloading and Securing Private Keys]
+  B --> D[Creating an EC2 Instance]
   D --> E[Installing the Remote - SSH Extension]
   E --> F[Configuring the access file for Remote Connection]
   F --> G[Connecting to the Remote Instance via VSCode]
