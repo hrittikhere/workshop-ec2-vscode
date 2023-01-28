@@ -5,7 +5,10 @@ Once you have successfully set up the remote connection, you can do many things 
 
 The [/app](/app) directory has an application which we want to built and test in our remote enviroment to understand further steps! 
 
-- Install Docker 
+- Install Docker with the following script:
+```bash
+curl -fsSL https://get.docker.com | bash
+```
 
 In order to build and run the application in a remote environment, you will need to have Docker installed on your machine. You can download and install Docker from the official website: https://www.docker.com/ or with help of an script 
 
