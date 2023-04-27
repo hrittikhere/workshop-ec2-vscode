@@ -6,7 +6,7 @@ By the end, you would be able to run your workloads directly on EC2 via VSCode a
 
 ### 📖 About This Workshop
 
-This is L100-200 workshop and specifically structured for developers from any levels. Knowledge on what SSH, Docker is should be helpful!
+This is L100-200 workshop and specifically structured for developers from any levels. Knowledge on what SSH, Docker is should be helpful! This workshop is for the [AWS Community Days Singapore 2023](https://www.awsugsg.dev/).
 
 ### 💡 Context 
 
